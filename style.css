@@ -1,1 +1,44 @@
-Commande ECHO activ‚e.
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F0F0F0;
+    color: black;
+}
+
+header{
+    background-color: #F87060;
+    color: white;
+    padding: 25px 70px;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+p{
+    color: rgb(75, 75, 75);
+}
+
+.container{
+    margin: 30px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article{
+    width: 28%;
+    padding: 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
