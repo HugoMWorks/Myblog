@@ -59,3 +59,41 @@ p{
 .article p{
     text-align: justify;
 }
+
+.post-container{
+    margin-top: 110px;
+}
+.post-container h2{
+    text-align: center;
+}
+.post-container p{
+    text-align: center;
+}
+
+.comments-container h2{
+    text-align: left;
+}
+.comments-title{
+    margin: 50px 0 30px;
+    font-size: 18px;
+}
+.comment{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.comment h3{
+    color: #F87060;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 22px;
+}
+.comment p{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 22px;
+}
+.comment img{
+    width: 85px;
+}
